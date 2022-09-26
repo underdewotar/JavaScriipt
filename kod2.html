@@ -1,0 +1,47 @@
+﻿<head>
+<script type="text/javascript">
+function okno_zamknij_rudnik()
+{
+window.close()
+}
+</script>
+<form>
+<textarea name="nazwa" cols="30" rows="40" readonly><html>
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_rudnik()
+{
+window.close()
+}
+ function WinOpen_rudnik3()
+ {
+ window.open("grafika1.html","okienko3","toolbar=no,directories=no,menubar=no,height=400,width=100,bottom=300,right=300");
+ }
+  function WinOpen_rudnik4()
+ {
+ window.open("grafika2.html","okienko4","toolbar=no,directories=no,menubar=no,height=400,width=100,bottom=300,left=900");
+ }
+ function WinOpen_rudnik5()
+ {
+ window.open("grafika3.html","okienko5","toolbar=no,directories=no,menubar=no,height=400,width=100,top=300,right=300");
+ }
+  function WinOpen_rudnik6()
+  {
+ window.open("grafika4.html","okienko6","toolbar=no,directories=no,menubar=no,height=400,width=100,top=300,left=900");
+  }
+</script>
+</head>
+<body>  
+ <form>
+   <input type="button" name="przycisk" value="grafika1" onclick="WinOpen_rudnik3(' ')">
+   <input type="button" name="przycisk" value="grafika2" onclick="WinOpen_rudnik4(' ')">
+   <input type="button" name="przycisk" value="grafika3" onclick="WinOpen_rudnik5(' ')">
+   <input type="button" name="przycisk" value="grafika4" onclick="WinOpen_rudnik6(' ')">
+  <input type="button" value="zamknij okno" onclick="okno_zamknij_rudnik()"/>
+ </form>
+</body>
+</html>
+</textarea>
+ </form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_rudnik()"/>
